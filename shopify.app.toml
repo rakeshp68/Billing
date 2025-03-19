@@ -3,7 +3,7 @@
 client_id = "0b68a90c4f6a1314df27acfe3061f2a1"
 name = "app-billing"
 handle = "app-billing-1"
-application_url = "https://maintained-instances-britannica-kentucky.trycloudflare.com"
+application_url = "https://trusts-bm-pennsylvania-writings.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://maintained-instances-britannica-kentucky.trycloudflare.com/auth/callback",
-  "https://maintained-instances-britannica-kentucky.trycloudflare.com/auth/shopify/callback",
-  "https://maintained-instances-britannica-kentucky.trycloudflare.com/api/auth/callback"
+  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/auth/callback",
+  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/auth/shopify/callback",
+  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
