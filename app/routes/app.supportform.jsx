@@ -29,13 +29,13 @@ export async function loader() {
   const shopName = shop.replace(/\.myshopify\.com$/, "");
   const accessToken = customerSessions[0].accessToken;
 
-  console.log( "shop:", shop);
-  console.log( "shopName:", shopName);
-  console.log( "accessToken:", accessToken);
+//   console.log( "shop:", shop);
+//   console.log( "shopName:", shopName);
+//   console.log( "accessToken:", accessToken);
 
   let shopDetails = { name: "", email: "" };
 
-  console.log("response:", shopDetails);
+ // console.log("response:", shopDetails);
 
   try {
     const response = await axios.get(`https://${shop}/admin/api/2024-01/shop.json`, {
@@ -48,9 +48,9 @@ export async function loader() {
         "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token",
       },
     });
-    console.log("response:", response);
-    console.log("Shop shop_owner:", response.data.shop.shop_owner);
-    console.log("Shop email:", response.data.shop.email);
+    // console.log("response:", response);
+    // console.log("Shop shop_owner:", response.data.shop.shop_owner);
+    // console.log("Shop email:", response.data.shop.email);
     shopDetails = {
       name: response.data.shop.shop_owner,
       email: response.data.shop.email,

@@ -3,7 +3,7 @@
 client_id = "0b68a90c4f6a1314df27acfe3061f2a1"
 name = "app-billing"
 handle = "app-billing-1"
-application_url = "https://trusts-bm-pennsylvania-writings.trycloudflare.com"
+application_url = "https://organized-combining-projector-iraq.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/auth/callback",
-  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/auth/shopify/callback",
-  "https://trusts-bm-pennsylvania-writings.trycloudflare.com/api/auth/callback"
+  "https://organized-combining-projector-iraq.trycloudflare.com/auth/callback",
+  "https://organized-combining-projector-iraq.trycloudflare.com/auth/shopify/callback",
+  "https://organized-combining-projector-iraq.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
